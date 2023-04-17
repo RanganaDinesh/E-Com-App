@@ -5,9 +5,21 @@ import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
+import {  useNavigate } from 'react-router-dom';
+
+
           
 
 const GenericProducts = () => {
+  
+  const Navigate = useNavigate()
+  const handlenavigate = (id , product) => {
+    Navigate(`/Details/${id}`,{
+      state: {Details:product}
+
+    })
+  
+  }
   
   const data = require("../../ApiData/BestSeller.json");
   const [fullProducts, setFullProducts] = useState(data);
@@ -49,9 +61,10 @@ const GenericProducts = () => {
  
   return (
     <>
-    
+    <div className="category-box">
     <nav className="category-filters">
         <ToggleButtonGroup
+          className='category-box'
           id="toggle-group"
           color="primary"
           value={alignment}
@@ -67,22 +80,26 @@ const GenericProducts = () => {
           <ToggleButton value="watch">Watch</ToggleButton>
           <ToggleButton value="accessories">Accessories</ToggleButton>
           <ToggleButton value="others">Others</ToggleButton>
-        </ToggleButtonGroup>   </nav>
+        </ToggleButtonGroup>   </nav></div>
       <div className='box-container'>
-      {products.slice(0, visible).map((product, index) => {
+      {products.slice(0, visible).map((product, index ,item) => {
           return (
-          <div className='product-box' key={index} >
-            <div className='blur-box' >
+            <div className='product-box main-card ' key={index} >
+              <div className="circle">
+            <div className='blur-box ' >
                           <span className='hot-box'>Hot</span>
                           <div className='cart-like'>
-                            <i class="bi bi-cart4" className='like'><i class="bi bi-heart-fill" ></i></i>    &nbsp;&nbsp;&nbsp;&nbsp;
-                            <i class="bi bi-heart-fill"className='like' > <i class="bi bi-bag-check-fill" ></i>   </i>              
-              </div>
+                    <div className="like">
+                      <button className='cartbag'onClick={()=>handlenavigate(index ,product,product.id )}><i class="bi bi-cart4" id='bag' ></i>Add Cart</button>
+                          </div>
+                                        
+                  </div>
+                  
               <img src={product.image} className='img-product' alt="" />
               
              
             </div>
-            <div>
+            <div className='back'>
                           <h4 className='item-h'>{ product.name}</h4>
                           <Stack className="best-product-rating" spacing={1}>
                   <Rating
@@ -94,12 +111,18 @@ const GenericProducts = () => {
                     className='rating-star'
                   />
                 </Stack>
-                          <span className='price-red'> {product.newPrice}<span className='price-black'>{ product.oldPrice}</span></span>
+                <span className='price-red'> {product.newPrice}<span className='price-black'>{product.oldPrice}</span></span>
+               
+            
+                          
           
-            </div>
-         
+                </div>
+                </div>
+              
+             
         
-          </div>  )
+            </div>
+          )
                     })
         }
         

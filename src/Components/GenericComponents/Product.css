@@ -10,25 +10,57 @@ border-radius: 4px;
 opacity: 1;
 margin-right: 30px;
 margin-top: 20px;
+transition: 0.5s;
 }
+.product-box:hover  {
+    transition: 2s;
+    transform: rotateY(180deg);
+  }
+.product-box:hover .back {
+    
+    transform: rotateY(-180deg);
+  }
+.product-box:hover .cart-like {
+    
+    transform: rotateY(180deg);
+  }
+
+  
+
 .product-box:hover{
+    
     transition: 0.3s;
     box-shadow: 0px 0px 10px rgba(159, 157, 157, 0.492);
 
 }
-.like:hover{
-    background-color: #f6f7f8e2;
-    opacity: 1;
-    z-index: 2;
-}
+
 .like{
-    opacity: 0;
-    font-size: 35px;
-    padding: 10px;
+    visibility: hidden;  
+   
+}
+#bag{
+    color:#262626 ;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.cartbag:hover #bag {
     color: #42A8FE;
-    width: 20px;
-    border-radius: 50% ;
-    border: 3px solid #42A8FE;
+    opacity: 0.5;
+}
+.cartbag:hover {
+    color: #42A8FE;
+    opacity: 0.5;
+    border:2px solid #4c4c4d51 ;
+}
+.cartbag{
+    background-color: #c0c2c31e;
+    width: 240px;
+    height: 70px;
+    border: 0px;
+    font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin: 50px 0px 20px -60px;
 }
 .cart{
     padding: 7px;
@@ -48,28 +80,31 @@ margin-top: 20px;
     width: 180px;
 height: 153px;
 /* UI Properties */
+backface-visibility: hidden;
+visibility: visible;
 
 opacity: 1;
 }
-
+.product-box:hover .img-product {
+    visibility: hidden;
+}
+.product-box:hover .like{
+    visibility: visible;
+}
 
 
 .cart-like{
    
-  margin: 70px 20px 20px 60px;
+  margin: 10px;
  
     width: 180px;
  
    position:absolute;
    }
-.cart-like:hover{
-    width: 180px;
-     opacity: 2;
-     height: 153px;
- }
 
 
 .hot-box{
+    visibility: visible;
     z-index: 1;
     margin: 5px 0px 0px 3px;
     padding-left: 10px;
@@ -96,6 +131,9 @@ opacity: 1;
     margin-left: 60px;
     width: 130px;
 }
+.product-box:hover .hot-box{
+    display: none;
+}
 .price-red{
     margin-left: 70px;
     text-align: center;
@@ -113,12 +151,22 @@ opacity: 1;
     opacity: 1;
 }
 .load-more{
-    border-radius: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
     padding: 7px;
-    color: #F6F7F8;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #42A8FE;
-    text-decoration: underline 1px solid #42A8FE;
+    color:#42A8FE;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#F6F7F8;
+   
     text-shadow: 0px 0px 1px #42A8FE;
-    padding-bottom: 20px;
+  
 }
+.load-more:hover{
+    background-color:#42A8FE;
+    color:#F6F7F8;
+}
+.main-card:hover .back{
+    transform: rotateY(180deg); 
+   
+}
+

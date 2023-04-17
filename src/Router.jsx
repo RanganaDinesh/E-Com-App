@@ -1,12 +1,13 @@
 import React from 'react'
 import Nav from '../src/Components/HeaderComponents/Nav'
 import HOME from '../src/Components/pages/Home'
-import STORE from '../src/Components/pages/Iphone'
+import STORE from '../src/Components/pages/Store'
 import IPHONE from '../src/Components/pages/Iphone'
 import IPAD from '../src/Components/pages/Ipad'
 import MACKBOOK from '../src/Components/pages/MackBook'
 import ACCESORIES from '../src/Components/pages/ACCESORIES'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import GenericId from './Components/GenericComponents/Genericidpage/GenericId'
 
 
 const Router = () => {
@@ -15,10 +16,10 @@ const Router = () => {
         
           <BrowserRouter>
               <Routes>
-                 <Route path='/' element={<Nav/>}/>
+                 <Route path='/Home' element={<Nav/>}/>
                 
-             
-                 <Route path='/HOME' element={<HOME/>}/>
+                 <Route path='/Details/:id' element={<GenericId/>}/>
+                 <Route path='/' element={<HOME/>}/>
                  <Route path='/STORE' element={<STORE/>}/>
                  <Route path='/IPHONE' element={<IPHONE/>}/>
                  <Route path='/IPAD' element={<IPAD/>}/>
