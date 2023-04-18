@@ -10,6 +10,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import GenericId from './Components/GenericComponents/Genericidpage/GenericId'
 
 
+
 const Router = () => {
   return (
       <>
@@ -20,7 +21,8 @@ const Router = () => {
                 
                  <Route path='/Details/:id' element={<GenericId/>}/>
                  <Route path='/' element={<HOME/>}/>
-                 <Route path='/STORE' element={<STORE/>}/>
+                 <Route path='/STORE' element={<STORE/>}/>                 
+
                  <Route path='/IPHONE' element={<IPHONE/>}/>
                  <Route path='/IPAD' element={<IPAD/>}/>
                  <Route path='/MACKBOOK' element={<MACKBOOK/>}/>

@@ -4,11 +4,13 @@
     height: 500px;
 background-color: #2E90E5;
 opacity: 1;
+border-radius: 10px;
    
 }
 .coro2{
-   margin-top: -120px;
+
  float:right;
+ height: 500px;
 
 }
 .box-mobile{
@@ -32,8 +34,13 @@ color: #FFFFFF;
 opacity: 1;
 }
 .mobile-span{
-
-    text-decoration: underline;
-    color: #FFFFFF;
-    font: normal normal 300 10px/10px Proxima Nova;
+    background-color:#FFFFFF ;
+   
+    padding: 10px;
+    border-radius: 15px;
+    color:#2E90E5;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-shadow: 5px 5px 10px #2E90E5 ;
+   box-shadow: 5px 5px 10px #2E90E5 ;
+   font-size: 15px;
 }

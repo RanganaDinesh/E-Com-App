@@ -1,0 +1,74 @@
+[
+        {
+            "_id": 1,
+            "name": "MacBook Air",
+            "rating": 4.5,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?width=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000",
+            "newPrice": "₹98,000",
+            "catagory": "Mac",
+           "oldPrice": "₹1,02,499"
+        },
+        {
+            "_id": 2,
+            "name": "Apple MacBook Pro",
+            "rating": 4.5,
+            "image": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_SL1500_.jpg",
+            "newPrice": "₹92,000",
+            "catagory": "Mac",
+           "oldPrice": "₹1,02,499"
+        },
+        {
+            "_id": 3,
+            "name": "Apple MacBook 12",
+            "rating": 4.5,
+            "image": "https://www.cnet.com/a/img/resize/582394e3d3c2a8e0a066cc4d3a51be08665cd2de/2016/04/19/7ce2b064-00fe-4d9a-9a93-6e540c1be1a1/apple-macbook-2016-18.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "newPrice": "₹68,000",
+            "catagory": "Mac",
+           "oldPrice": "₹75,499"
+        },
+        {
+            "_id": 4,
+            "name": "Apple MacBook 11",
+            "rating": 4.5,
+            "image": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macbookpro/macbook-pro-mid-2014-13in-device.jpg",
+            "newPrice": "₹68,000",
+            "catagory": "Mac",
+           "oldPrice": "₹72,499"
+        },
+        {
+            "_id": 5,
+            "name": "Apple MacBook Air 2020 ",
+            "rating": 4.5,
+            "image": "https://techcart.com.au/wp-content/uploads/2021/04/53002-Apple-MacBook-Air-2020-MVH22-13.3-i5-512GB_8GB-Grey.jpg",
+            "newPrice": "₹91,000",
+            "catagory": "Mac",
+           "oldPrice": "₹95,499"
+        },
+        {
+            "_id": 6,
+            "name": "Apple MacBook Pro 2019",
+            "rating": 4.5,
+            "image": "https://m.media-amazon.com/images/I/61SJu997CCL._SL1500_.jpg",
+            "newPrice": "₹82,000",
+            "catagory": "Mac",
+           "oldPrice": "₹92,499"
+        },
+        {
+            "_id": 7,
+            "name": "Apple MacBook Air Gold",
+            "rating": 4.5,
+            "image": "https://media.wired.com/photos/5bd883dc5b66a763e54f0b22/1:1/w_1348,h_1348,c_limit/macbookair3.jpg",
+            "newPrice": "₹78,000",
+            "catagory": "Mac",
+           "oldPrice": "₹85,499"
+        },
+        {
+            "_id": 8,
+            "name": "Apple MacBook Air M2",
+            "rating": 4.5,
+            "image": "https://www.apple.com/in/macbook-air-m2/images/overview/hero/battery_hw_midnight__ctl0mn014k2u_large.jpg",
+            "newPrice": "₹75,000",
+            "catagory": "Mac",
+           "oldPrice": "₹82,499"
+        }
+    ]
