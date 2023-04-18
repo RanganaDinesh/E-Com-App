@@ -162,6 +162,7 @@ const Store = () => {
                           <span className='hot-box'>Hot</span>
                           <div className='cart-like'>
                     <div className="like">
+                    <img src={product.image} className='img-product1' alt="" />
                       <button className='cartbag'onClick={()=>handlenavigate(index ,product,product.id )}><i class="bi bi-cart4" id='bag' ></i>Add Cart</button>
                           </div>
                                         

@@ -65,13 +65,13 @@ const Nav = () => {
       ];
   return (
       <>
-             <Popper open={open} anchorEl={anchorEl} placement={placement} transition >
+             <Popper open={open} anchorEl={anchorEl} placement={placement} transition  >
         {({ TransitionProps }) => (
-          <Fade {...TransitionProps} timeout={150}>
-            <Paper>
-                          <Typography sx={{ p: 2 }}style={{backgroundColor:' #b6b2b23e'}}>
+          <Fade {...TransitionProps} timeout={150} >
+            <Paper >
+                          <Typography sx={{ p: 2 }}style={{backgroundColor:' #b6b2b23e'}} >
                 <TableContainer component={Paper} >
-      <Table sx={{ minWidth: 950 }} aria-label="customized table" >
+      <Table sx={{ minWidth: 950 }} aria-label="customized table"  >
         <TableHead>
           <TableRow >
             <StyledTableCell id='text-table'>ACCESORIES</StyledTableCell>

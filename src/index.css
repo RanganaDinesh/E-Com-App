@@ -272,3 +272,9 @@ padding-top: 20px;
  
   color: rgb(66, 140, 245);
 }
+#back-mg{
+  z-index: -2;
+  position: absolute;
+  opacity: 0.5;
+  
+}
