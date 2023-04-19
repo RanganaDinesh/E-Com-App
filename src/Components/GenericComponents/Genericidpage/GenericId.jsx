@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom';
-
+import GenericSlider from '../../GenericComponents/GenericCards/GenericSlider'
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 import Nav from "../../HeaderComponents/Nav"
 import "./GenericId.css"
+import Footer from '../../pages/Footer';
 
 
 const GenericId = () => {
@@ -48,7 +49,9 @@ const GenericId = () => {
             </div>
    
 
-        </div>
+      </div>
+      <GenericSlider />
+      <Footer/>
       </>
   )
 }

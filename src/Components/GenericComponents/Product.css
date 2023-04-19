@@ -50,9 +50,9 @@ transition: 0.5s;
 }
 .cartbag:hover {
     color: #068af5;
-  
-    border:2px solid #4c4c4d51 ;
-    background-color: #a9a7a77b;
+  text-shadow: 0px 0px 10px rgb(250, 245, 245);
+    border:2px solid #f4f4f651 ;
+    background-color: #e1dbdb7b;
 }
 .cartbag{
     background-color: #ecedeeea;

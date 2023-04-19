@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Nav from '../HeaderComponents/Nav'
 import GenericLandScope from '../GenericComponents/GenericCards/GenericLandScope'
 import GenericCards from '../GenericComponents/GenericCards/GenericCards'
+import Footer from './Footer'
 
 const Accesories = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -47,7 +48,7 @@ const Accesories = () => {
 
 
 
-
+<Footer/>
     
       
      

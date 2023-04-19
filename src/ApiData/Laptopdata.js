@@ -1,11 +1,7 @@
-import React, { createContext, useState } from "react";
 
-export const MobileStore = createContext();
-
-function MobileApi(props) {
   
 
-    const [Mobiledata] = useState([
+    export const  Mobiledata =[
     {
         id: 1,
         name: "Asus ROG Strix G17",
@@ -102,23 +98,4 @@ function MobileApi(props) {
         price: "₹55,499",
         oPrice: "₹59,000"   
     },
-]);
-const [loadData, setLoadData] = useState(4);
-
-
- 
-const loadMore = () => {
-    setLoadData(loadData + 4);
-};
-
-
-return (
-    <MobileStore.Provider value={{Mobiledata:Mobiledata.slice(0,loadData), loadMore}
-}>
-        {props.children}
-    </MobileStore.Provider>
-);
-}
-
-export default MobileApi;
-
+]
