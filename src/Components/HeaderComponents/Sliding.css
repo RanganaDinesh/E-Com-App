@@ -1,12 +1,66 @@
 .box-sliding{
     margin-top: 30px;
     width: 100vw auto;
-    height: 500px;
-   background: transparent linear-gradient(67deg, #ee798a 0%, #ECC7C1 45%, #EFCAC4 58%, #E4BDB8 70%, #42A8FE 100%) 0% 0% no-repeat padding-box;
+    height: 450px;
+  background-color: #2E90E5;
 opacity: 1;
+display: flex;
+border-radius: 9px;
    
 }
-.coro1{
-    height: 500px   ;
+.coro4{
+    
+    height: 450px   ;
    margin-left: 750px;
+}
+
+#coro2{
+   
+    height: 450px ; 
+  
+    position: relative;
+    animation: coro2 5s infinite;
+    z-index: 2;
+  }
+  
+  @keyframes coro2 {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .mobile-buy{
+    background-color:#FFFFFF ;
+    margin-top: 100px;
+   height: 60px;
+    padding: 20px;
+    border-radius: 15px;
+    color:#2E90E5;
+    padding-bottom: 30px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-shadow: 5px 5px 10px #2E90E5 ;
+   box-shadow: 5px 5px 10px #2E90E5 ;
+   font-size: 25px;
+   position: relative;
+   animation: mobile-buy 5s infinite;
+   
+}
+@keyframes mobile-buy{
+    from {right: 0px;}
+    to {right: 300px;}
+}
+.mobile-buy1{
+    background-color:#FFFFFF ;
+    margin-top: 354px;
+    margin-left: -450px;
+   height: 66px;
+    padding: 20px;
+    border-radius: 15px;
+    color:#2E90E5;
+    padding-bottom: 30px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-shadow: 5px 5px 10px #2E90E5 ;
+   box-shadow: 5px 5px 10px #2E90E5 ;
+   font-size: 25px;
+   position: relative;
+   animation: mobile-buy1 5s infinite;
+   
 }

@@ -115,9 +115,9 @@ const Nav = () => {
                   <option value="">&#8377;</option>
               </select>
             </div>
-              <span className='profile-nav'>&nbsp; <i class="bi bi-person-circle" style={{ fontSize: '25px' }}> &nbsp;&nbsp;</i>&nbsp;<span style={{ fontSize: '17px' }}>My Profile&nbsp;</span><i class="bi bi-bag-check-fill"  style={{ fontSize: '25px' }}></i></span>
-              
-
+              <span className='profile-nav'>&nbsp; <i class="bi bi-person-circle" style={{ fontSize: '25px' }}> &nbsp;&nbsp;</i>&nbsp;<span style={{ fontSize: '17px' }}>My Profile&nbsp;</span></span>
+          <Link to='/Cart'>   <i className='bag-cart'> 
+              <i class="bi bi-bag-check-fill"  style={{ fontSize: '25px' }}></i></i></Link>
               {/* // */}
               
              {/*  */}

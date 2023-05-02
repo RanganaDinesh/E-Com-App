@@ -8,6 +8,7 @@ import MACKBOOK from '../src/Components/pages/MackBook'
 import ACCESORIES from '../src/Components/pages/ACCESORIES'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import GenericId from './Components/GenericComponents/Genericidpage/GenericId'
+import Cart from './Components/pages/Cart'
 
 
 
@@ -27,6 +28,7 @@ const Router = () => {
                  <Route path='/IPAD' element={<IPAD/>}/>
                  <Route path='/MACKBOOK' element={<MACKBOOK/>}/>
                  <Route path='/ACCESORIES' element={<ACCESORIES/>}/>
+                 <Route path='/Cart' element={<Cart/>}/>
               </Routes>
           </BrowserRouter>
           
