@@ -37,7 +37,7 @@ const GenericId = () => {
                     // defaultValue={2.5}
                     value={product.rating}
                     precision={0.5}
-                    
+                       
                     className='rating-star'
                   />
                   </Stack> <br />
