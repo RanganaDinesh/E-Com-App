@@ -9,7 +9,7 @@ const CarouselSmaller = () => {
     const [numSlides, setNumSlides] = useState(3);
     const DATA = require('../../../ApiData/Accessoriesdata.json')
 
-    const slide = DATA.slice(7, 12);
+    const slide = DATA.slice(7, 12);  
 
     const renderSlide = (slide, id) => {
     return (
@@ -79,7 +79,7 @@ const CarouselSmaller = () => {
     }, []);
 
     return (
-    <>
+        <>
         <div className="container">
             <div className="row">
                 <div className="col-12 text-center pt-4">
