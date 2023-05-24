@@ -4,7 +4,7 @@ import image from './2_corousel.png'
 import boy from '../../images/boy.png'
 const SlidingImage = () => {
   return (
-    <div className='box-sliding'> <div className='box-mobile' style={{marginLeft:"150px"}}>
+    <div className='box-sliding'> <div className='box-mobile' style={{marginLeft:"-150px"}}>
     <h1 className='mobile-name'>iPhone 6 Plus</h1>
    <p className='mobile-p'>Performance and design. Taken right to the edge.</p>
     <span className='mobile-span'>SHOP NOW</span>
