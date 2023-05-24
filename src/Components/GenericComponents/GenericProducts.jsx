@@ -62,7 +62,7 @@ const GenericProducts = () => {
   return (
     <>
     <div className="category-box">
-    <nav className="category-filters" style={{marginLeft:"-250px"}}>
+    <nav className="category-filters" style={{marginLeft:"-150px"}}>
         <ToggleButtonGroup
           className='category-box'
           id="toggle-group"
