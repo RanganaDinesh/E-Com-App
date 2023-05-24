@@ -44,7 +44,7 @@ const GenericId = () => {
                   <h3 className='generic-new'>Sale Price :${ product.newPrice}/-  <br />
                   <span className='generic-old'> Original Price :${ product.oldPrice}/-</span></h3><br />
                 
-                  <p className='generic-pre'><strong>Item Description : </strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione odit illo molestias itaque tempore possimus cumque nihil exercitationem, incidunt perspiciatis voluptatibus et est sequi alias similique! Dolorem, expedita consequatur.</p>
+                  <p className='generic-pre'><strong>Item Description : </strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione odit illo molestias itaque tempore possimus cumque nihil exercitationem,</p>
                   <button onClick={handleClick} className='btn-generic'> {isNameChanged ? 'Add to Cart' : 'Remove  from cart'}</button>
             </div>
    
