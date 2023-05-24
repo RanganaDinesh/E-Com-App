@@ -1,7 +1,7 @@
 .box-sliding1{
     margin-top: 30px;
     width: 100vw auto;
-    height: 500px;
+    height: 400px;
 background-color: #2E90E5;
 opacity: 1;
 border-radius: 10px;
@@ -10,7 +10,7 @@ border-radius: 10px;
 .coro2{
 
  float:right;
- height: 500px;
+ height: 400px;
 
 }
 .box-mobile{
@@ -20,9 +20,10 @@ border-radius: 10px;
 .mobile-name{
     color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal 300 66px/81px Proxima Nova;
+font: normal normal 300 46px/81px Proxima Nova;
 letter-spacing: 0px;
 color: #FFFFFF;
+margin-left: -60px;
 opacity: 1;
 }
 .mobile-p{
