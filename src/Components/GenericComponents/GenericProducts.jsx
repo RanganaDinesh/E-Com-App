@@ -127,12 +127,12 @@ const GenericProducts = () => {
           )
                     })
         }
-        
+        <br />
 
         {visible >= products.length ? (
           " "
         ) : (
-          <div>
+           <div>
           <span onClick={showMoreArticles} className='load-more'>Load more</span></div>  )}
         </div>
       </>
