@@ -43,7 +43,7 @@ const GenericLandScope = ({ product, index, item }) => {
                 
 </div>
 
-          <div id='price-tag'>
+          <div id='price-tag' style={{marginLeft:'-100px'}}>
                   {/* <span>Price :<span className='price-red' id='price-text'> {product.newPrice}<span className='price-black'>{product.oldPrice}</span></span></span> */}
                   <h4 id='1price-tag'>SalePrice :  &#8377;{product.newPrice}/- </h4>
                   <h4 id='old-tag1'>OriginalPrice :  &#8377; {product.oldPrice}/-</h4>
